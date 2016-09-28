@@ -1,0 +1,19 @@
+
+
+input[type="number"] {
+   width:310px;
+}
+
+input[type="text"]{
+	width:310px;
+}
+
+ input[type="email"]{
+	width:310px;
+}
+
+.faleconosco{
+	position:absolute;
+	left:33%;
+	top:8%;
+}

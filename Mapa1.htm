@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+	 <style type="text/css">
+	 	#mapid{
+	 		height:480;
+			border-radius: 15px 50px;
+			background-position: center;
+			background-repeat: repeat;
+			padding: 0px; 
+	 	}
+	 </style>
+</head>
+<body>
+	<div id="mapid"></div>
+	<script type="text/javascript">
+	//-22.864539, -47.211979
+		var map = L.map('mapid').setView([-22.864539, -47.211979], 15);
+
+	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	</script>
+</body>
+</html>
