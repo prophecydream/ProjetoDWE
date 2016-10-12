@@ -1,0 +1,53 @@
+#bruno {
+    border-radius: 15px 50px;
+    background: url(../Images/bruno.jpg);
+    background-position: center;
+    padding: 40px; 
+    height: 60px;
+    width: 60px;
+} 
+
+#gustavo {
+    border-radius: 15px 50px;
+    background: url("../Images/gustavo.jpg");
+    background-position: center;
+    padding: 40px; 
+    height: 60px;
+    width: 60px;
+} 
+
+#descgustavo {
+    border-radius: 25px;
+    border: 2px solid #ff0000;
+    background-color:#ffcccc;   
+    padding: 20px;
+    width: 180px;
+    height: 30px;
+}
+
+#descbruno {
+    border-radius: 25px;
+    border: 2px solid #3366ff;
+    background-color: #cce6ff;
+    padding: 20px;
+    width: 180px;
+    height: 30px;
+}
+
+#descricao{
+    border-radius: 25px;
+    border: 2px solid #ffcb05;
+    background-color: #fff5cc;
+    padding: 20px;
+    width: 850px;
+    height: 20px;
+}
+
+#botao{
+    border-radius: 25px;
+    border: 2px solid #ffcb05;
+    background-color: #fff5cc;
+    padding: 20px;
+    width: 60px;
+    height: 10px;
+}
